@@ -1,3 +1,53 @@
-* {
-    background-color: aqua;
+/* * {
+    background-color;
+} */
+
+body {
+    margin: 0px;
 }
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+}
+
+.full-screen {
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.odd {
+    color: black;
+    background: #604020;
+}
+
+.even {
+    color: white;
+    background: #392613;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-item {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 25vw;
+    font-size: 3em;
+    background: #291a14;
+    color: white;
+    text-align: center;
+    font-family: Copperplate
+}
+
+
+/* .hover-effect:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+} */
