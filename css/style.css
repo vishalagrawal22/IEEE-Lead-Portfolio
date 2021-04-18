@@ -9,6 +9,7 @@ body {
 #nav-bar {
     display: flex;
     flex-direction: row;
+    background: #291a14;
     height: 10vh;
     position: fixed;
     width: 100%;
@@ -16,7 +17,7 @@ body {
 
 .full-screen {
     padding-top: 10vh;
-    height: 100vh;
+    height: 90vh;
 }
 
 .odd {
@@ -37,8 +38,7 @@ a {
     padding-top: 2vh;
     padding-bottom: 2vh;
     width: 25vw;
-    font-size: 3em;
-    background: #291a14;
+    font-size: xxx-large;
     color: white;
     text-align: center;
     font-family: Copperplate
@@ -51,3 +51,30 @@ a {
 
 .active {
 } */
+
+#CreatedBy {
+    padding-bottom: 1vh;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer-div {
+    background: #291a14;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+}
+
+.links-item {
+    margin-top: 1vh;
+    width: 33vw;
+    font-size: xxx-large;
+    color: white;
+    text-align: center;
+    font-family: Copperplate
+}
