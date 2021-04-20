@@ -30,11 +30,13 @@ body {
 .odd {
     color: white;
     background: #2B0504;
+    padding: 1vmax;
 }
 
 .even {
     color: black;
     background: #874000;
+    padding: 1vmax;
 }
 
 h1 {
@@ -66,19 +68,38 @@ h1 {
 }
 
 .github-project-link>a {
-    margin: 4vh;
+    margin: 2vh;
     color: white;
     text-decoration: underline;
 }
 
+#account-link-div {
+    text-align: center;
+}
+
 .github-account-link {
+    padding: 3vh;
+    text-align: center;
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.github-account-link {
+.github-account-link>a {
+    width: 100%;
     color: white;
     text-decoration: underline;
+}
+
+.project-image {
+    height: 20vh;
+    width: 30vw;
+    margin: 1vh;
+}
+
+.project-image-calc {
+    height: 45vh;
+    width: 20vw;
+    margin: 1vh;
 }
 
 .center-container {
