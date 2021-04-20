@@ -2,6 +2,10 @@
     background-color;
 } */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
 }
@@ -9,25 +13,81 @@ body {
 #nav-bar {
     display: flex;
     flex-direction: row;
-    background: #291a14;
-    height: 10vh;
-    position: fixed;
+    background: #2B0504;
+    /* position: fixed; */
     width: 100%;
 }
 
+.nav-item:hover {
+    background: black;
+    color: white;
+}
+
 .full-screen {
-    padding-top: 10vh;
-    height: 90vh;
+    height: 100vh;
 }
 
 .odd {
-    color: black;
-    background: #604020;
+    color: white;
+    background: #2B0504;
 }
 
 .even {
+    color: black;
+    background: #874000;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 2.5rem;
+    font-family: Copperplate;
+}
+
+.project-discription {
+    font-size: 2rem;
+}
+
+.projects-group {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.projects-item {
+    border-color: black;
+    border: 1px;
+    text-align: center;
+}
+
+.github-project-link {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.github-project-link>a {
+    margin: 4vh;
     color: white;
-    background: #392613;
+    text-decoration: underline;
+}
+
+.github-account-link {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.github-account-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.center-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -35,46 +95,31 @@ a {
 }
 
 .nav-item {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    width: 25vw;
-    font-size: xxx-large;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 20vw;
+    font-size: 3rem;
     color: white;
     text-align: center;
-    font-family: Copperplate
-}
-
-
-/* .hover-effect:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-} */
-
-#CreatedBy {
-    padding-bottom: 1vh;
-    color: white;
-    text-align: center;
-    font-size: x-large;
+    font-family: Copperplate;
 }
 
 .footer-div {
-    background: #291a14;
+    background: #2B0504;
 }
 
 .links {
     display: flex;
     flex-direction: row;
-    height: 10vh;
     width: 100%;
 }
 
 .links-item {
-    margin-top: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     width: 33vw;
-    font-size: xxx-large;
+    font-size: 3rem;
     color: white;
     text-align: center;
-    font-family: Copperplate
+    font-family: Copperplate;
 }
