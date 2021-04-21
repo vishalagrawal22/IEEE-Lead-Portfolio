@@ -204,11 +204,11 @@ a {
     bottom: 1vh;
     height: 5vh;
     width: 5vw;
-    background-color: #084887;
+    background-color: #394053;
     border-radius: 5vmax;
     border-color: black;
 }
 
 .float-button>a {
-    color: black;
+    color: white;
 }
