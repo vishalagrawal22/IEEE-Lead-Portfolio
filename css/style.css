@@ -143,6 +143,7 @@ h2 {
     height: 45vh;
     width: 20vw;
     margin: 1vh;
+    margin-bottom: 0vh;
 }
 
 .center-container {
@@ -195,4 +196,19 @@ a {
     color: black;
     text-align: center;
     font-family: Copperplate;
+}
+
+.float-button {
+    position: fixed;
+    right: 3vw;
+    bottom: 1vh;
+    height: 5vh;
+    width: 5vw;
+    background-color: #084887;
+    border-radius: 5vmax;
+    border-color: black;
+}
+
+.float-button>a {
+    color: black;
 }
