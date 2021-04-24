@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Portfolio Website</title>
 </head>
 
@@ -91,21 +92,22 @@
         <section class="title">
             <p class="header capital underline">Competitive Programming</p>
         </section>
-        <section class="account-link">
-            <h1>
-                CodeForces :
-                <a href="https://codeforces.com/profile/vishalagrawal" target="_blank">
-                    vishalagrawal
-                </a>
-            </h1>
-            <h1>
+        <section class="center cf-section">
+            <h1 class="account-link">
                 CodeChef :
-                <a href="https://www.codechef.com/users/vishalagrawal1" target="_blank">
+                <a class="black underline" href="https://www.codechef.com/users/vishalagrawal1" target="_blank">
                     vishalagrawal1
                 </a>
             </h1>
-        </section>
-        <section class="graph-group">
+
+            <h1 class="account-link">
+                CodeForces :
+                <a class="black underline codeforces" href="https://codeforces.com/profile/vishalagrawal" target="_blank">
+                    vishalagrawal
+                </a>
+
+            </h1>
+            <!-- <section class="graph-group">
             <section class="graph-item">
                 <h1 class="capital">Rating Graph</h1>
                 <img src="media/plot-rating.png" class="graph-image">
@@ -115,7 +117,21 @@
                 <img src="media/plot-solved.png" class="graph-image">
             </section>
         </section>
-        <h2 class="center">Graphs are last updated on 21 april</h2>
+        <h2 class="center">Graphs are last updated on 21 april</h2> -->
+            <h1>
+                Current Rating :
+                <p class="black codeforces current-rating" style="display: inline;">
+                    -
+                </p>
+            </h1>
+            <h1>
+                Max Rating :
+                <p class="black codeforces-max max-rating" style="display: inline;">
+                    -
+                </p>
+            </h1>
+            <h2>Note: all the data on this section is live (thanks to CF API!)</h2>
+        </section>
     </section>
     <section id="skills-section" class="full-screen odd">
         <section class="title">

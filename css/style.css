@@ -116,8 +116,11 @@ h2 {
 
 .account-link>h1>a {
     margin: 2vh;
-    color: black;
     text-decoration: underline;
+}
+
+.black {
+    color: black;
 }
 
 .account-link>h1 {
@@ -211,4 +214,42 @@ a {
 
 .float-button>a {
     color: white;
+}
+
+.newbie {
+    /* not familiar with this region  */
+    color: gray;
+}
+
+.pupil {
+    /* Ahhh good old days, taught me perseverance  */
+    color: green;
+}
+
+.specialist {
+    /* current home  */
+    color: #03a89e;
+}
+
+.expert {
+    /* next goal  */
+    color: blue;
+}
+
+.candidate-master {
+    /* Destination  */
+    color: #a0a;
+}
+
+.master {
+    /* I know I know :eyes: got a little optimistic */
+    color: #ff8c00;
+}
+
+.cf-section {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
