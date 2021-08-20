@@ -37,7 +37,7 @@ body {
 h1 {
     margin: 0px;
     margin-bottom: 1vh;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -65,12 +65,20 @@ h2 {
     flex-direction: row;
 }
 
+#projects-section  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .projects-item {
+    margin-left: 1vw;
+    margin-right: 1vw;
     text-align: center;
 }
 
 .github-project-link {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -97,21 +105,28 @@ h2 {
 }
 
 .project-image {
-    height: 20vh;
+    height: 29vh;
     width: 30vw;
     margin: 1vh;
+}
+
+/* .project-image-calc {
+    height: 45vh;
+    width: 20vw;
+    margin: 1vh;
+    margin-bottom: 0vh;
+} */
+
+.project-image-tags {
+    height: 15vh;
+    width: 20vw;
+    margin: 0;
 }
 
 .skills-image {
     height: 30vmin;
     width: 30vmin;
     margin: 5vmin;
-}
-
-.graph-group {
-    display: flex;
-    flex-direction: row;
-    padding: 5vh;
 }
 
 .account-link>h1>a {
@@ -131,34 +146,7 @@ h2 {
     text-align: center;
 }
 
-.graph-item {
-    text-align: center;
-    width: 50%;
-}
-
-.graph-image {
-    height: 40vh;
-    width: 45vw;
-    margin: 1vh;
-}
-
-.project-image-calc {
-    height: 45vh;
-    width: 20vw;
-    margin: 1vh;
-    margin-bottom: 0vh;
-}
-
 .center-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.center-container-2 {
     height: 100%;
     width: 100%;
     display: flex;
@@ -169,6 +157,10 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+.white-link {
+    color: white;
 }
 
 .nav-item {
@@ -217,32 +209,26 @@ a {
 }
 
 .newbie {
-    /* not familiar with this region  */
     color: gray;
 }
 
 .pupil {
-    /* Ahhh good old days, taught me perseverance  */
     color: green;
 }
 
 .specialist {
-    /* current home  */
     color: #03a89e;
 }
 
 .expert {
-    /* next goal  */
     color: blue;
 }
 
 .candidate-master {
-    /* Destination  */
     color: #a0a;
 }
 
 .master {
-    /* I know I know :eyes: got a little optimistic */
     color: #ff8c00;
 }
 

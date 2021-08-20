@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>Portfolio Website</title>
+    <title>Resume Website</title>
 </head>
 
 <body>
@@ -39,16 +39,17 @@
             <h2>I am currently pursuing BTech in CSE from BIT Mesra.</h2>
         </div>
     </section>
-    <section id="project-section" class="full-screen odd">
-        <section class="github-account-link">
-            <!-- <a href="https://github.com/vishalagrawal22" target="_blank"> -->
-            <p class="header capital underline">Some of my creations</p>
-            <!-- </a> -->
+    <section id="projects-section" class="full-screen odd">
+        <section>
+            <p class="header capital underline">
+                <a class="white-link" href="https://github.com/vishalagrawal22" target="_blank">Some of my creations</a>
+            </p>
         </section>
         <section class="projects-group">
             <section class="projects-item">
                 <h1 class="capital">JEE Mains Marks Calculator</h1>
-                <p class="project-discription">Calculating your marks after exam can we really boring, we are here to help!</p>
+                <p class="project-discription">Calculating your marks after exam can we really boring, we are here to
+                    help!</p>
                 <img src="media/jee.png" class="project-image">
                 <section class="github-project-link">
                     <a href="https://jee-mains-marks-calculator.herokuapp.com/" target="_blank">
@@ -60,28 +61,30 @@
                 </section>
             </section>
             <section class="projects-item">
-                <h1 class="capital">Etch a Sketch</h1>
-                <p class="project-discription">A simple version of paint with a resizable canvas made in Vanilla JS (don't forget to checkout all 3 branches!).</p>
-                <img src="media/black-color.png" class="project-image">
-                <img src="media/random-color.png" class="project-image">
+                <h1 class="capital">CodeForces Problem Tag Hider</h1>
+                <p class="project-discription">UserScript which allows user to toggle on/off problem tags from the problem page itself on codeforces.
+                </p>
+                <img src="media/hidden.png" class="project-image-tags">
+                <img src="media/unhidden.png" class="project-image-tags">
                 <section class="github-project-link">
-                    <!-- <a href="https://jee-mains-marks-calculator.herokuapp.com/" target="_blank">
-                        <div>Try it yourself!</div>
-                    </a> -->
-                    <a href="https://github.com/vishalagrawal22/Etch-a-Sketch" target="_blank">
+                    <a href="https://github.com/vishalagrawal22/tag-hider-codeforces" target="_blank">
                         <div>Have a look at the code!</div>
+                    </a>
+                    <a href="https://codeforces.com/blog/entry/93551" target="_blank">
+                        <div>Link to CodeForces blog!</div>
                     </a>
                 </section>
             </section>
             <section class="projects-item">
-                <h1 class="capital">Calculator</h1>
-                <p class="project-discription">A simple calculator made in Vanilla JS with keyboard support and BODMAS.</p>
-                <img src="media/calc.png" class="project-image-calc">
-                <section class="github-project-link" style="margin-bottom: 0%;">
-                    <!-- <a href="https://jee-mains-marks-calculator.herokuapp.com/" target="_blank">
+                <h1 class="capital">Coronavirus Statistics</h1>
+                <p class="project-discription">Real-Time Coronavirus Statistics uses different APIs, can be used to check statistics for user location, or some specific area, or the whole world.
+                </p>
+                <img src="media/corona-stats.png" class="project-image">
+                <section class="github-project-link">
+                    <a href="https://vishalagrawal22.github.io/covid-statistics/" target="_blank">
                         <div>Try it yourself!</div>
-                    </a> -->
-                    <a href="https://github.com/vishalagrawal22/calculator" target="_blank">
+                    </a>
+                    <a href="https://github.com/vishalagrawal22/covid-statistics" target="_blank">
                         <div>Have a look at the code!</div>
                     </a>
                 </section>
@@ -102,22 +105,12 @@
 
             <h1 class="account-link">
                 CodeForces :
-                <a class="black underline codeforces" href="https://codeforces.com/profile/vishalagrawal" target="_blank">
+                <a class="black underline codeforces" href="https://codeforces.com/profile/vishalagrawal"
+                    target="_blank">
                     vishalagrawal
                 </a>
 
             </h1>
-            <!-- <section class="graph-group">
-            <section class="graph-item">
-                <h1 class="capital">Rating Graph</h1>
-                <img src="media/plot-rating.png" class="graph-image">
-            </section>
-            <section class="graph-item">
-                <h1 class="capital">no. of question solved Graph</h1>
-                <img src="media/plot-solved.png" class="graph-image">
-            </section>
-        </section>
-        <h2 class="center">Graphs are last updated on 21 april</h2> -->
             <h1>
                 Current Rating :
                 <p class="black codeforces current-rating" style="display: inline;">
@@ -137,7 +130,7 @@
         <section class="title">
             <p class="header capital underline remove-bottom-margin">Skills</p>
         </section>
-        <section class="center-container-2">
+        <section class="center-container">
             <section>
                 <img src="media/html.png" class="skills-image">
                 <img src="media/css.jpg" class="skills-image">
